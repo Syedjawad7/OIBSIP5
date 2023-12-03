@@ -31,14 +31,14 @@ This is a basic chat application implemented in Python using socket programming.
 
    You will be prompted to type a message. Type your message and press Enter to send it to the server.
 
-   To disconnect from the server, type `!DISCONNECT` and press Enter.
+   To disconnect from the server, type `!q` and press Enter.
 
 ## How It Works
 
 - The server listens for incoming connections on a specified port.
 - Each client connects to the server and can send messages.
 - The server broadcasts received messages to all connected clients.
-- To disconnect from the server, the client sends the `!DISCONNECT` command.
+- To disconnect from the server, the client sends the `!q` command.
 
 ## Customization
 
